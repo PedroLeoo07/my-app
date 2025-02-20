@@ -3,14 +3,44 @@
     flex-direction: column;
 }
 
-.header {
-    background-color: deeppink;
-    width: 100%;
+.card{
+    background-color: black;
+    width: 50vh;
+    height: 20vh;
+    margin: 10vh;
+    display: flex;
+    justify-content: center;    
 }
 
-.title {
-    color: black;
+.card2{
+    background-color: black;
     display: flex;
-    text-align: center;
+    width: 20vh;
+    height: 20vh;
+    margin: 10vh;
     justify-content: center;
+    align-items: center;
+}
+
+.section{
+    background-color: red;
+    margin-top: 10vh;
+    width: 90vh;
+    height: 100vh;
+    margin: 20px;
+}
+
+.aside{
+    background-color: deeppink;
+    padding: 4%;
+    margin: 0px;
+    width: 90vh;
+    height: 83vh;
+    position: absolute;
+    margin-top: 110px;
+    right: 0;
+}
+
+.imgs{
+    width: 30vh;
 }

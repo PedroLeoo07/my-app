@@ -1,0 +1,11 @@
+.footer {
+    background-color: deeppink;
+    width: 100%;
+}
+
+.title {
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
