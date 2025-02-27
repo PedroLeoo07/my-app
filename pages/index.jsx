@@ -29,6 +29,7 @@ export default function Home(){
         <aside className= {styles.aside}>
         <div className={styles.card2}>
         <h1>Teste do semantic</h1>
+        <p></p>
         </div>
         </aside>
         <Footer/>

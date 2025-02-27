@@ -9,3 +9,31 @@
     text-align: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 1000px) {
+    .title {
+        font-size: 2rem;
+    }
+    .footer {
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }   
+    .nav a {
+        margin: 0 10px;
+    }
+    
+    
+}

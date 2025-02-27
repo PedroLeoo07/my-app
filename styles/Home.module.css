@@ -1,46 +1,108 @@
 .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    max-width: 100%;
+    width: 100%;
 }
 
-.card{
-    background-color: black;
-    width: 50vh;
-    height: 20vh;
-    margin: 10vh;
-    display: flex;
-    justify-content: center;    
-}
-
-.card2{
+.card, .card2 {
     background-color: black;
     display: flex;
-    width: 20vh;
-    height: 20vh;
-    margin: 10vh;
     justify-content: center;
     align-items: center;
+    margin: 10vh;
+    color: white;
+    border-radius: 8px;
 }
 
-.section{
+.card {
+    width: 50vh;
+    height: 20vh;
+}
+
+.card2 {
+    width: 20vh;
+    height: 20vh;
+}
+
+.section {
     background-color: red;
-    margin-top: 10vh;
     width: 90vh;
     height: 100vh;
     margin: 20px;
+    margin-top: 10vh;
+    border-radius: 8px;
+    gap: 5%;
 }
 
-.aside{
+.aside {
     background-color: deeppink;
     padding: 4%;
-    margin: 0px;
     width: 90vh;
     height: 83vh;
     position: absolute;
-    margin-top: 110px;
+    top: 110px;
     right: 0;
+    margin: 0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
 }
 
-.imgs{
-    width: 30vh;
+.imgs {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card, .card2 {
+        width: 70%;
+        margin: 5vh;
+    }
+
+    .section {
+        width: 80%;
+        height: auto;
+        margin: 5vh 0;
+    }
+
+    .aside {
+        width: 80%;
+        height: auto;
+        top: 100px;
+        right: 0;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card, .card2 {
+        width: 90%;
+        margin: 5vh;
+    }
+
+    .section {
+        width: 95%;
+        height: auto;
+        margin: 5vh 0;
+    }
+
+    .aside {
+        width: 95%;
+        height: auto;
+        top: 90px;
+        right: 0;
+        position: relative;
+    }
 }
